@@ -47,7 +47,8 @@
             Rellena el siguiente formulario con los detalles de tu proyecto y nos pondremos en contacto contigo lo antes
             posible.<br><br>
         </p>
-        <form action="../Index/gracias.html" method="post" class="formulario">
+        <form onsubmit="event.preventDefault(); window.location.href='gracias.html';" class="formulario">
+    
             <!-- Aquí van los campos -->
             Nombre:<br>
             <input type="text" name="nombre" required pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]{2,50}"
