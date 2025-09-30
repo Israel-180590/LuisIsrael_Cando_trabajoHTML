@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos que usará la página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Estilos/styles.css">
+    <title>LECO REFORMAS</title>
+
+
+</head>
+
+<!-- Cuerpo de la página -->
+
+<body class="body">
+    <header>
+        <img src="../imagenes/leco.jpg" alt="Leco reformas" class="banner">
+        <div>
+            <!-- Barra de navegación -->
+            <nav>
+                <div class="div_menu">
+                    <span class="boton">
+                        <a href="../index.html" class="div_menu">Inicio</a>
+                    </span>
+                    <span class="boton">
+                        <a href="../Index/Galeria.html" class="div_menu">Galeria</a>
+                    </span>
+                    <span class="boton">
+                        <a href="../Index/Presupuesto.html" class="div_menu">Presupuesto</a>
+                    </span>
+                    <span class="boton">
+                        <a href="../Index/contacto.html" class="div_menu">Contacto</a>
+                    </span>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <h1>Solicita tu presupuesto</h1>
+
+        <p>
+            Si estás interesado en nuestros servicios de reformas, no dudes en solicitar un presupuesto personalizado.
+            Rellena el siguiente formulario con los detalles de tu proyecto y nos pondremos en contacto contigo lo antes
+            posible.<br><br>
+        </p>
+        <form action="../Index/gracias.html" method="post" class="formulario">
+            <!-- Aquí van los campos -->
+            Nombre:<br>
+            <input type="text" name="nombre" required pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]{2,50}"
+                title="El nombre solo puede contener letras y espacios (mínimo 2 caracteres)"><br><br>
+
+
+
+
+            Correo Electrónico:<br>
+            <input type="email" name="correo" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                title="Ingrese un correo electrónico válido"><br><br>
+
+
+            Teléfono:<br>
+            <input type="tel" name="telefono" pattern="[0-9]{9,15}"
+                title="Ingrese un número de teléfono válido (9 a 15 dígitos)"><br><br>
+
+
+            Descripción del Proyecto:<br>
+            <textarea name="descripcion" rows="5" required></textarea><br><br>
+
+            <label class="label">
+                <input type="checkbox" name="acepto" required>
+                Acepto la política de privacidad y el tratamiento de mis datos personales.<br><br>
+            </label>
+
+            <input type="submit" value="Solicitar Presupuesto">    
+        </form>
+        
+        <h3>Si tienes un presupuesto, TE LO MEJORAMOS!</h3>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+
+        Leco reformas &copy; 2024
+        <!-- Enlaces a redes sociales -->
+        <a href="https://www.facebook.com/">
+            <img src="../imagenes/facebook_logo.png" alt="facebook">
+        </a>
+
+        <a href="https://www.instagram.com/">
+            <img src="../imagenes/Instagram_logo.png" alt="instagram">
+        </a>
+
+        <a href="https://maps.app.goo.gl/eYiV2LaYC3bJoBB88" target="_blank">
+            <img src="../imagenes/logo_maps.png" alt="maps">
+        </a>
+
+        <a href="../Index/aviso_legal.html">Aviso Legal</a>
+
+
+    </footer>
+</body>
+
+</html>

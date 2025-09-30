@@ -1,0 +1,140 @@
+/* Declaración de caracteres */
+@charset "UTF-8";
+
+/* Estilos generales */
+
+/*estilo de la imagen de caberera*/
+.banner {
+    width: 99%;
+    padding: auto;
+    height: 215px;
+    display: block;
+}
+
+/* Cambio de color del cuerpo de la página */
+body {
+    margin: 0 auto;
+    padding: auto;
+    width: auto;
+    background-color: rgb(39, 39, 39);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Estilo para los encabezados */
+h1,
+h2,
+h3 {
+    color: blanchedalmond;
+    text-align: center;
+}
+
+/* Estilo para los párrafos */
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 20px;
+    color: blanchedalmond;
+    border: 2px solid rgb(42, 223, 223); /* Borde visible */
+    padding: 15px;
+}
+
+/* Estilo para el menu de navegación */
+.div_menu {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+
+}
+
+/* Estilo para los botones */
+.boton{
+    width: 310px;
+    background-color: rgb(42, 223, 223);
+    border: 1px solid rgb(42, 223, 223);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 12px;
+    
+    font-weight: bold;
+}
+	
+.footer{
+    font-size: 13px;
+    border: 2px solid rgb(42, 223, 223); /* Borde visible */
+    color: blanchedalmond;
+    margin: 2%;
+    padding: 5px;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: blanchedalmond;
+    text-decoration: none;
+    margin: 0 20px;
+}
+/* Estilo para los logos de redes sociales en el footer */
+.footer img {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    width: 28px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.label{
+    color: blanchedalmond;
+    font-size: 10px;
+}
+
+.imagenes{
+    width: 350px;
+    height: auto;
+    margin: 10px;
+    border: 5px solid rgb(42, 223, 223); /* Borde visible */
+    padding: 5px;
+}
+
+.tabla{
+    width: 90%;
+    margin: auto;
+    border: 2px solid rgb(42, 223, 223); /* Borde visible */
+    padding: 10px;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.formulario{
+    width: 50%;
+    margin: auto;
+    border: 2px solid rgb(42, 223, 223); /* Borde visible */
+    padding: 10px;
+    color: blanchedalmond;
+    text-align: left;
+}
+
+.mensaje{
+    width: 50%;
+    margin: auto;
+    border: 2px solid rgb(42, 223, 223); /* Borde visible */
+    padding: 10px;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.body_gracias * {
+    background-color: rgb(39, 39, 39);
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    padding: 100px;
+    margin: 0 auto;
+    width: auto;
+}
